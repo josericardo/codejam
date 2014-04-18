@@ -5,6 +5,7 @@ import fileinput
 import time
 import numba
 
+@numba.jit
 def elapsed_time(rate, C, F, X):
     elapsed_time = 0.0
 
